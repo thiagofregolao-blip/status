@@ -17,10 +17,10 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://status.example.com'),
+  metadataBase: new URL('https://evoluaacademy.com'),
   title: {
-    default: 'Status — Cursos Profissionalizantes no PY e BR',
-    template: '%s · Status',
+    default: 'Evolua Academy — Capacitação Profissional no PY e BR',
+    template: '%s · Evolua Academy',
   },
   description:
     'Cursos profissionalizantes com certificado reconhecido no Brasil e Paraguai. Trilhas técnica (máquinas, climatização, drones, pecuária) e IA & Tecnologia. Turmas abertas todo mês.',
@@ -33,17 +33,17 @@ export const metadata: Metadata = {
     'capacitação Katueté',
   ],
   openGraph: {
-    title: 'Status — Capacitação que abre portas',
+    title: 'Evolua Academy — Capacitação que abre portas',
     description: 'Do campo à inteligência artificial — cursos presenciais e online no PY e BR.',
     type: 'website',
     locale: 'pt_BR',
     alternateLocale: ['es_PY'],
-    images: [{ url: '/og.jpg', width: 1200, height: 630, alt: 'Status' }],
+    images: [{ url: '/og.jpg', width: 1200, height: 630, alt: 'Evolua Academy' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Status — Capacitação que abre portas',
-    description: 'Cursos profissionalizantes no PY e BR.',
+    title: 'Evolua Academy — Capacitação que abre portas',
+    description: 'Cursos profissionalizantes no PY e BR pela Evolua Academy.',
   },
   robots: { index: true, follow: true },
 };

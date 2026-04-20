@@ -18,7 +18,7 @@ export function Sidebar({ userEmail }: { userEmail?: string }) {
     <aside className="w-64 shrink-0 min-h-screen bg-slate-900 text-slate-200 flex flex-col">
       <div className="p-6 border-b border-slate-800">
         <Link href="/admin/cursos" className="block">
-          <div className="text-lg font-bold text-white">Status</div>
+          <div className="text-lg font-bold text-white">Evolua <span className="text-emerald-400">Academy</span></div>
           <div className="text-xs text-slate-400">Painel admin</div>
         </Link>
       </div>

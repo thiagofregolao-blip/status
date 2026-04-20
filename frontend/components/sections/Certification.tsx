@@ -28,7 +28,7 @@ export function Certification() {
                   <div className="flex items-center justify-between">
                     <Award className="h-10 w-10 text-brand-800" />
                     <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
-                      Status · 2026
+                      Evolua Academy · 2026
                     </span>
                   </div>
                   <div className="mt-6 text-center">

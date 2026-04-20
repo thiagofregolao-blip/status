@@ -38,7 +38,7 @@ function Form() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50 px-4">
       <div className="w-full max-w-md rounded-2xl bg-white shadow-lg p-8 border border-slate-200">
-        <h1 className="text-2xl font-bold text-slate-900 mb-1">Status Admin</h1>
+        <h1 className="text-2xl font-bold text-slate-900 mb-1">Evolua Academy · Admin</h1>
         <p className="text-sm text-slate-600 mb-6">Entre para gerenciar cursos, depoimentos e FAQ.</p>
         <form onSubmit={onSubmit} className="space-y-4">
           <div>

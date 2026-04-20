@@ -54,7 +54,7 @@ export function Header() {
       )}
     >
       <div className="container-x flex h-16 sm:h-18 items-center justify-between gap-4">
-        <button onClick={() => handleNav('#top')} aria-label="Status home" className="shrink-0">
+        <button onClick={() => handleNav('#top')} aria-label="Evolua Academy home" className="shrink-0">
           <Logo />
         </button>
 

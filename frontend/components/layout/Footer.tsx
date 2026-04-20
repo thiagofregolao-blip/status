@@ -88,7 +88,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
-          <div>© {year} Status. {t.footer.rights}.</div>
+          <div>© {year} Evolua Academy. {t.footer.rights}.</div>
           <div>Paraguay · Brasil</div>
         </div>
       </div>

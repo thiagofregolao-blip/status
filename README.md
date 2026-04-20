@@ -1,6 +1,6 @@
-# Status — Capacitação Profissional
+# Evolua Academy — Capacitação Profissional
 
-Landing page + painel admin da plataforma Status: captação via WhatsApp e gerenciamento de cursos, depoimentos e FAQ.
+Landing page + painel admin da plataforma **Evolua Academy**: captação via WhatsApp e gerenciamento de cursos, depoimentos e FAQ.
 
 ## Estrutura
 

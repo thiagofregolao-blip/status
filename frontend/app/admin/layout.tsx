@@ -3,7 +3,7 @@ import { Toaster } from 'sonner';
 import { auth } from '@/lib/auth';
 import { AdminShell } from '@/components/admin/AdminShell';
 
-export const metadata = { title: 'Admin · Status' };
+export const metadata = { title: 'Admin · Evolua Academy' };
 export const dynamic = 'force-dynamic';
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {

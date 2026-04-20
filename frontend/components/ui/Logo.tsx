@@ -10,15 +10,15 @@ export function Logo({ className, variant = 'dark' }: { className?: string; vari
       <div className="relative flex h-9 w-9 items-center justify-center">
         <div className={cn('absolute inset-0 rounded-xl bg-gradient-to-br blur-md opacity-60', dotFrom, dotTo)} />
         <div className={cn('relative flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br shadow-lifted', dotFrom, dotTo)}>
-          <span className="font-display text-lg font-black text-white">S</span>
+          <span className="font-display text-lg font-black text-white">E</span>
         </div>
       </div>
       <div className="flex flex-col leading-none">
         <span className={cn('font-display text-lg font-extrabold tracking-tight', textColor)}>
-          Status
+          Evolua <span className="text-emerald-500">Academy</span>
         </span>
         <span className={cn('text-[10px] font-semibold uppercase tracking-[0.18em]', variant === 'light' ? 'text-white/60' : 'text-slate-500')}>
-          Capacitação
+          Brasil · Paraguai
         </span>
       </div>
     </div>
