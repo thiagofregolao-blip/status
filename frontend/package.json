@@ -8,7 +8,7 @@
     "start": "node scripts/start.js",
     "lint": "next lint",
     "db:push": "node scripts/with-app-db-url.js prisma db push",
-    "db:seed": "node scripts/with-app-db-url.js ts-node --transpile-only prisma/seed.ts",
+    "db:seed": "node scripts/with-app-db-url.js node prisma/seed.js",
     "postinstall": "prisma generate --no-hints || true"
   },
   "dependencies": {

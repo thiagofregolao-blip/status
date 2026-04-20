@@ -52,6 +52,13 @@ async function main() {
   console.log('[start] syncing database schema (prisma db push)...');
   await run('npx', ['prisma', 'db', 'push', '--skip-generate'], env);
 
+  console.log('[start] seeding admin + initial data (idempotent)...');
+  try {
+    await run('node', ['prisma/seed.js'], env);
+  } catch (e) {
+    console.warn('[start] seed failed (continuing anyway):', e.message);
+  }
+
   console.log('[start] starting Next.js...');
   await run('npx', ['next', 'start'], env);
 }

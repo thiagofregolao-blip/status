@@ -28,7 +28,13 @@ if (!cmd) {
 const resolved = resolveAppDbUrl();
 const env = { ...process.env };
 if (resolved) env.APP_DATABASE_URL = resolved;
-const p = spawn('npx', [cmd, ...args], { stdio: 'inherit', env });
+
+// Use direct exec for `node`, npx for everything else (so tools from
+// node_modules/.bin resolve without being on PATH).
+const runner = cmd === 'node' ? 'node' : 'npx';
+const runnerArgs = cmd === 'node' ? args : [cmd, ...args];
+
+const p = spawn(runner, runnerArgs, { stdio: 'inherit', env });
 p.on('exit', (code) => process.exit(code ?? 1));
 p.on('error', (e) => {
   console.error('[with-app-db-url]', e.message);
