@@ -1,0 +1,95 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  name      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Course {
+  id                 String   @id @default(cuid())
+  slug               String   @unique
+  titlePt            String
+  titleEs            String
+  descriptionShortPt String
+  descriptionShortEs String
+  imageUrl           String
+  track              String
+  category           String
+  modality           String
+  price              Int
+  installments       Int
+  installmentValue   Int
+  workloadHours      Int
+  startDate          DateTime
+  endDate            DateTime
+  locationPt         String
+  locationEs         String
+  totalSeats         Int
+  seatsTaken         Int
+  status             String   @default("active")
+  featured           Boolean  @default(false)
+  nrsCovered         String[] @default([])
+  toolsCovered       String[] @default([])
+  includesPt         String[] @default([])
+  includesEs         String[] @default([])
+  machinesUsed       String[] @default([])
+  order              Int      @default(0)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@index([status, order])
+  @@index([featured])
+}
+
+model Testimonial {
+  id        String   @id @default(cuid())
+  name      String
+  role      String
+  location  String
+  quotePt   String
+  quoteEs   String
+  imageUrl  String?
+  rating    Int      @default(5)
+  courseRef String?
+  featured  Boolean  @default(false)
+  active    Boolean  @default(true)
+  order     Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([active, order])
+}
+
+model Faq {
+  id         String   @id @default(cuid())
+  questionPt String
+  questionEs String
+  answerPt   String
+  answerEs   String
+  order      Int      @default(0)
+  active     Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([active, order])
+}
+
+model Image {
+  id        String   @id @default(cuid())
+  data      Bytes
+  mimeType  String
+  size      Int
+  filename  String?
+  createdAt DateTime @default(now())
+}

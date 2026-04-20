@@ -8,3 +8,5 @@ frontend/out
 *.log
 .vercel
 tsconfig.tsbuildinfo
+frontend/prisma/generated
+frontend/node_modules/.prisma
