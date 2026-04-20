@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "tech": "Trayecto Técnico",
+    "ai": "Trayecto IA & Tech",
+    "testimonials": "Testimonios",
+    "contact": "Contacto",
+    "whatsapp": "Habla por WhatsApp",
+    "menu": "Menú"
+  },
+  "hero": {
+    "eyebrow": "Paraguay • Brasil",
+    "title": "Aprende una profesión.",
+    "titleAccent": "Transforma tu carrera.",
+    "subtitle": "Del campo a la inteligencia artificial — cursos presenciales y online con certificado reconocido, contenido práctico y nuevas clases cada mes.",
+    "ctaPrimary": "Hablar con un asesor por WhatsApp",
+    "ctaSecondary": "Ver próximas clases",
+    "trustCert": "Certificado válido en BR y PY",
+    "trustAlumni": "+1.500 alumnos formados",
+    "trustTeachers": "Instructores certificados"
+  },
+  "tracks": {
+    "title": "Elige tu trayecto",
+    "subtitle": "Dos frentes complementarios pensados para el futuro del trabajo.",
+    "tech": {
+      "label": "Trayecto Técnico & Agro",
+      "description": "Máquinas agrícolas, pesadas, climatización, drones y ganadería.",
+      "cta": "Ver cursos técnicos"
+    },
+    "ai": {
+      "label": "Trayecto IA & Tecnología",
+      "description": "Inteligencia artificial, automatización y desarrollo con IA.",
+      "cta": "Ver cursos de IA"
+    }
+  },
+  "courses": {
+    "eyebrow": "Clases abiertas",
+    "title": "Próximas clases disponibles",
+    "subtitle": "Asegura tu lugar — cupos limitados por clase.",
+    "filters": {
+      "all": "Todos",
+      "tech": "Trayecto Técnico",
+      "ai": "Trayecto IA & Tech",
+      "in_person": "Presencial",
+      "online": "Online"
+    },
+    "card": {
+      "startsOn": "Inicio",
+      "workload": "Carga horaria",
+      "hours": "h",
+      "modality": "Modalidad",
+      "price": "Inversión",
+      "installments": "o {count}x de {value}",
+      "seatsLeft": "{n} cupos restantes",
+      "seatsLast": "¡Últimos cupos!",
+      "full": "Lista de espera",
+      "cta": "Quiero inscribirme",
+      "ctaWaitlist": "Entrar a la lista",
+      "tools": "Herramientas",
+      "machines": "Máquinas",
+      "nrs": "Normas"
+    },
+    "modalityLabels": {
+      "presencial": "Presencial",
+      "online_ao_vivo": "Online en vivo",
+      "hibrido": "Híbrido",
+      "gravado": "Grabado"
+    },
+    "trackLabels": {
+      "tecnica": "Trayecto Técnico",
+      "ia_tech": "IA & Tech"
+    },
+    "empty": "No se encontraron cursos con estos filtros."
+  },
+  "benefits": {
+    "eyebrow": "Por qué Status",
+    "title": "Por qué nuestros alumnos recomiendan",
+    "subtitle": "Contenido práctico, instructores del mercado y dos trayectos que acompañan el futuro del trabajo.",
+    "items": [
+      { "title": "Certificado válido", "text": "Reconocido en Brasil y Paraguay." },
+      { "title": "100% práctico", "text": "Máquinas reales y proyectos reales con IA." },
+      { "title": "Instructores activos", "text": "Profesionales que viven el mercado." },
+      { "title": "Clases pequeñas", "text": "Atención individual en cada clase." },
+      { "title": "Apoyo post-curso", "text": "Soporte para la colocación profesional." },
+      { "title": "Dos trayectos", "text": "Del agro a la inteligencia artificial." }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Quien lo hizo, recomienda",
+    "title": "Historias de quienes transformaron su carrera",
+    "subtitle": "Alumnos formados trabajando en el campo, la industria y en proyectos de tecnología en BR, PY y el exterior."
+  },
+  "howItWorks": {
+    "eyebrow": "Cómo funciona",
+    "title": "Del primer contacto al certificado",
+    "steps": [
+      { "title": "Habla con el asesor", "text": "Elige el curso y conversa por WhatsApp." },
+      { "title": "Haz la matrícula", "text": "Recibe el material de bienvenida." },
+      { "title": "Participa de las clases", "text": "Teoría + práctica con instructores activos." },
+      { "title": "Recibe el certificado", "text": "Carnet y ficha de práctica incluidos." },
+      { "title": "Apoyo de colocación", "text": "Te conectamos con el mercado." }
+    ]
+  },
+  "certification": {
+    "eyebrow": "Certificación",
+    "title": "Certificado que abre puertas",
+    "subtitle": "Documentos que siguen estándares reconocidos en BR, PY y el exterior.",
+    "items": [
+      "Certificado firmado por técnico de seguridad laboral",
+      "Cobertura de las Normas Regulatorias aplicables",
+      "Aceptado por empresas del sector en BR, PY y el exterior",
+      "Carnet físico + ficha de práctica"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Lo que nos preguntan cada semana",
+    "items": [
+      {
+        "q": "¿Necesito experiencia previa?",
+        "a": "No. Nuestros cursos comienzan desde cero y avanzan hasta el nivel operativo. Los cursos de IA también son accesibles para quien nunca programó."
+      },
+      {
+        "q": "¿Los cursos de IA exigen conocimiento técnico previo?",
+        "a": "No. Los cursos iniciales son para cualquier profesional que quiera aplicar IA en su trabajo. Para los avanzados informamos los prerrequisitos antes de la matrícula."
+      },
+      {
+        "q": "¿Qué documentos necesito para la matrícula?",
+        "a": "Documento con foto, comprobante de domicilio y, en algunos cursos técnicos, licencia de conducir. El asesor envía la lista completa."
+      },
+      {
+        "q": "¿El certificado vale en Brasil y Paraguay?",
+        "a": "Sí. Emitimos certificado bilingüe firmado por profesional habilitado, aceptado en empresas de ambos países."
+      },
+      {
+        "q": "¿Hay financiación? ¿Formas de pago?",
+        "a": "Sí. Financiamos con tarjeta, PIX, transferencia y efectivo. Condiciones especiales para pago único y grupos."
+      },
+      {
+        "q": "¿Los cursos online son en vivo o grabados?",
+        "a": "La mayoría de los cursos de IA son en vivo (Zoom o Google Meet), con grabación disponible. Algunos módulos complementarios quedan grabados."
+      },
+      {
+        "q": "¿Y si falto a una clase?",
+        "a": "En los presenciales ofrecemos reposición en la siguiente clase. En los online en vivo, miras la grabación."
+      },
+      {
+        "q": "¿Ayudan a conseguir empleo después?",
+        "a": "Sí. Tenemos red de empresas aliadas que buscan a nuestros alumnos e indicamos activamente cuando hay fit."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Tu próxima oportunidad empieza aquí.",
+    "subtitle": "Habla con un asesor ahora y asegura tu cupo en la próxima clase.",
+    "scarcity": "Abrimos nuevas clases cada 30 días con cupos limitados.",
+    "cta": "Hablar por WhatsApp ahora",
+    "altPhone": "O llama al"
+  },
+  "footer": {
+    "tagline": "Capacitación profesional. Paraguay y Brasil.",
+    "explore": "Explorar",
+    "company": "Empresa",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados"
+  },
+  "exitIntent": {
+    "title": "¡Espera! Antes de irte…",
+    "subtitle": "Recibe el calendario completo de las próximas clases directo en tu WhatsApp.",
+    "cta": "Quiero recibirlo",
+    "dismiss": "Ahora no"
+  },
+  "whatsappFloat": "Habla con nosotros"
+}

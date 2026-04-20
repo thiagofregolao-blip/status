@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "tech": "Trilha Técnica",
+    "ai": "Trilha IA & Tech",
+    "testimonials": "Depoimentos",
+    "contact": "Contato",
+    "whatsapp": "Fale no WhatsApp",
+    "menu": "Menu"
+  },
+  "hero": {
+    "eyebrow": "Paraguai • Brasil",
+    "title": "Aprenda uma profissão.",
+    "titleAccent": "Transforme sua carreira.",
+    "subtitle": "Do campo à inteligência artificial — cursos presenciais e online com certificado reconhecido, conteúdo prático e turmas abertas todo mês.",
+    "ctaPrimary": "Falar com consultor no WhatsApp",
+    "ctaSecondary": "Ver próximas turmas",
+    "trustCert": "Certificado válido no BR e PY",
+    "trustAlumni": "+1.500 alunos formados",
+    "trustTeachers": "Instrutores certificados"
+  },
+  "tracks": {
+    "title": "Escolha a sua trilha",
+    "subtitle": "Duas frentes complementares pensadas para o futuro do trabalho.",
+    "tech": {
+      "label": "Trilha Técnica & Agro",
+      "description": "Máquinas agrícolas, pesadas, climatização, drones e pecuária.",
+      "cta": "Ver cursos técnicos"
+    },
+    "ai": {
+      "label": "Trilha IA & Tecnologia",
+      "description": "Inteligência artificial, automação e desenvolvimento com IA.",
+      "cta": "Ver cursos de IA"
+    }
+  },
+  "courses": {
+    "eyebrow": "Turmas abertas",
+    "title": "Próximas Turmas Abertas",
+    "subtitle": "Garante tua vaga — vagas limitadas por turma.",
+    "filters": {
+      "all": "Todos",
+      "tech": "Trilha Técnica",
+      "ai": "Trilha IA & Tech",
+      "in_person": "Presencial",
+      "online": "Online"
+    },
+    "card": {
+      "startsOn": "Início",
+      "workload": "Carga horária",
+      "hours": "h",
+      "modality": "Modalidade",
+      "price": "Investimento",
+      "installments": "ou {count}x de {value}",
+      "seatsLeft": "{n} vagas restantes",
+      "seatsLast": "Últimas vagas!",
+      "full": "Lista de espera",
+      "cta": "Quero me inscrever",
+      "ctaWaitlist": "Entrar na lista",
+      "tools": "Ferramentas",
+      "machines": "Máquinas",
+      "nrs": "Normas"
+    },
+    "modalityLabels": {
+      "presencial": "Presencial",
+      "online_ao_vivo": "Online ao vivo",
+      "hibrido": "Híbrido",
+      "gravado": "Gravado"
+    },
+    "trackLabels": {
+      "tecnica": "Trilha Técnica",
+      "ia_tech": "IA & Tech"
+    },
+    "empty": "Nenhum curso encontrado com estes filtros."
+  },
+  "benefits": {
+    "eyebrow": "Por que Status",
+    "title": "Por que nossos alunos recomendam",
+    "subtitle": "Conteúdo prático, instrutores que atuam no mercado e duas trilhas que acompanham o futuro do trabalho.",
+    "items": [
+      { "title": "Certificado válido", "text": "Reconhecido no Brasil e Paraguai." },
+      { "title": "100% prático", "text": "Máquinas reais e projetos reais com IA." },
+      { "title": "Instrutores atuantes", "text": "Profissionais que vivem o mercado." },
+      { "title": "Turmas pequenas", "text": "Atenção individual em cada aula." },
+      { "title": "Suporte pós-curso", "text": "Apoio para colocação profissional." },
+      { "title": "Duas trilhas", "text": "Do agro à inteligência artificial." }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Quem fez, recomenda",
+    "title": "Histórias de quem transformou a carreira",
+    "subtitle": "Alunos formados e atuando no campo, na indústria e em projetos de tecnologia no BR, PY e exterior."
+  },
+  "howItWorks": {
+    "eyebrow": "Como funciona",
+    "title": "Do primeiro contato ao certificado",
+    "steps": [
+      { "title": "Fale com o consultor", "text": "Escolha o curso e converse no WhatsApp." },
+      { "title": "Faça a matrícula", "text": "Receba o material de boas-vindas." },
+      { "title": "Participe das aulas", "text": "Teoria + prática com instrutores atuantes." },
+      { "title": "Receba certificado", "text": "Carteirinha e ficha de estágio inclusas." },
+      { "title": "Apoio na colocação", "text": "Conectamos você ao mercado." }
+    ]
+  },
+  "certification": {
+    "eyebrow": "Certificação",
+    "title": "Certificado que abre portas",
+    "subtitle": "Documentos que acompanham padrões reconhecidos no BR, PY e exterior.",
+    "items": [
+      "Certificado assinado por técnico de segurança do trabalho",
+      "Cobertura das Normas Regulamentadoras aplicáveis",
+      "Aceito em empresas do setor no BR, PY e exterior",
+      "Carteirinha física + ficha de estágio"
+    ]
+  },
+  "faq": {
+    "eyebrow": "Dúvidas frequentes",
+    "title": "Perguntas que recebemos toda semana",
+    "items": [
+      {
+        "q": "Preciso ter experiência anterior?",
+        "a": "Não. Nossos cursos começam do zero e avançam até o nível operacional. Os cursos de IA também são acessíveis para quem nunca programou — o foco é aplicar ferramentas no dia a dia."
+      },
+      {
+        "q": "Os cursos de IA exigem conhecimento técnico prévio?",
+        "a": "Não. Os cursos iniciais são voltados para qualquer profissional que queira aplicar IA no trabalho. Para os cursos avançados (como desenvolvimento com IA), informamos os pré-requisitos antes da matrícula."
+      },
+      {
+        "q": "Qual a documentação necessária para matrícula?",
+        "a": "Documento com foto, comprovante de endereço e, em alguns cursos técnicos, CNH. Nosso consultor envia a lista completa conforme o curso escolhido."
+      },
+      {
+        "q": "O certificado é válido no Brasil e no Paraguai?",
+        "a": "Sim. Emitimos certificado bilíngue e assinado por profissional habilitado, aceito em empresas dos dois países."
+      },
+      {
+        "q": "Tem parcelamento? Formas de pagamento?",
+        "a": "Sim. Parcelamos no cartão, PIX, transferência e dinheiro. Condições especiais para pagamento à vista e grupos."
+      },
+      {
+        "q": "Os cursos online são ao vivo ou gravados?",
+        "a": "A maioria dos cursos de IA é ao vivo (Zoom ou Google Meet), com gravação liberada para quem faltar. Alguns módulos complementares ficam disponíveis gravados."
+      },
+      {
+        "q": "E se eu faltar uma aula?",
+        "a": "Nos cursos presenciais, oferecemos reposição na próxima turma. Nos cursos online ao vivo, você assiste à gravação."
+      },
+      {
+        "q": "Vocês ajudam a conseguir emprego depois?",
+        "a": "Sim. Temos rede de empresas parceiras que buscam nossos alunos e fazemos indicações ativas quando identificamos fit."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Sua próxima oportunidade começa aqui.",
+    "subtitle": "Fale com um consultor agora e garante tua vaga na próxima turma.",
+    "scarcity": "Turmas abrem a cada 30 dias com vagas limitadas.",
+    "cta": "Falar no WhatsApp agora",
+    "altPhone": "Ou ligue"
+  },
+  "footer": {
+    "tagline": "Capacitação profissional. Paraguai e Brasil.",
+    "explore": "Explorar",
+    "company": "Empresa",
+    "legal": "Legal",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Uso",
+    "contact": "Contato",
+    "rights": "Todos os direitos reservados"
+  },
+  "exitIntent": {
+    "title": "Espera! Antes de sair…",
+    "subtitle": "Receba o calendário completo das próximas turmas direto no seu WhatsApp.",
+    "cta": "Quero receber",
+    "dismiss": "Agora não"
+  },
+  "whatsappFloat": "Fale conosco"
+}
