@@ -44,14 +44,13 @@ O painel permite CRUD completo de **Cursos**, **Depoimentos** e **FAQ**, com upl
 1. **Adicione o plugin PostgreSQL** na service (ou reutilize um existente).
 2. **Variáveis de ambiente** (Settings → Variables):
    ```
-   APP_DATABASE_URL=${{Postgres.DATABASE_URL}}?schema=status
    AUTH_SECRET=<gere com: openssl rand -base64 32>
    NEXTAUTH_URL=https://<seu-dominio>.up.railway.app
    ADMIN_EMAIL=thiago.fregolao@gmail.com
    ADMIN_PASSWORD=1571jn
    NEXT_PUBLIC_WHATSAPP_NUMBER=595000000000
    ```
-   ⚠️  **Importante:** o `?schema=status` coloca todas as tabelas do Status em um schema isolado. Isso permite compartilhar o mesmo Postgres com outros projetos **sem risco de conflito ou perda de dados**.
+   O `DATABASE_URL` é injetado automaticamente pelo plugin Postgres. O app automaticamente deriva `APP_DATABASE_URL` dela acrescentando `?schema=status`, isolando todas as tabelas do Status em um schema dedicado — compartilhar o mesmo Postgres com outros projetos é **seguro** (zero risco de colisão).
 3. **Root Directory** (Settings → Build): `frontend`
 4. **Build & Start:** deixe o padrão — o build só compila, e o `start` roda `prisma db push` antes do `next start` para sincronizar o schema quando a aplicação sobe.
 5. **Primeiro deploy:** após o deploy concluir, rode o seed via Railway shell:
