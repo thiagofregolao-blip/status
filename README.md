@@ -51,7 +51,7 @@ O painel permite CRUD completo de **Cursos**, **Depoimentos** e **FAQ**, com upl
    NEXT_PUBLIC_WHATSAPP_NUMBER=595000000000
    ```
 3. **Root Directory** (Settings → Build): `frontend`
-4. **Build Command:** deixe o padrão — o `package.json` já roda `prisma generate && prisma migrate deploy && next build`.
+4. **Build & Start:** deixe o padrão — o build só compila, e o `start` roda `prisma db push` antes do `next start` para sincronizar o schema quando a aplicação sobe.
 5. **Primeiro deploy:** após o deploy concluir, rode o seed via Railway shell:
    ```bash
    npm run db:seed
