@@ -49,6 +49,7 @@
       "hours": "h",
       "modality": "Modalidade",
       "price": "Investimento",
+      "priceOnRequest": "Sob consulta",
       "installments": "ou {count}x de {value}",
       "seatsLeft": "{n} vagas restantes",
       "seatsLast": "Últimas vagas!",

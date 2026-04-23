@@ -159,15 +159,23 @@ export function CourseCard({ course }: { course: Course }) {
         <div className="mt-5 flex items-end justify-between border-t border-dashed border-slate-200 pt-4">
           <div>
             <div className="text-xs text-slate-500">{t.courses.card.price}</div>
-            <div className="font-display text-xl font-extrabold text-slate-900">
-              {formatPrice(course.price, locale)}
-            </div>
-            {course.installments > 1 && (
-              <div className="text-[11px] text-slate-500">
-                {interpolate(t.courses.card.installments, {
-                  count: course.installments,
-                  value: formatPrice(course.installmentValue, locale),
-                })}
+            {course.price > 0 ? (
+              <>
+                <div className="font-display text-xl font-extrabold text-slate-900">
+                  {formatPrice(course.price, locale)}
+                </div>
+                {course.installments > 1 && course.installmentValue > 0 && (
+                  <div className="text-[11px] text-slate-500">
+                    {interpolate(t.courses.card.installments, {
+                      count: course.installments,
+                      value: formatPrice(course.installmentValue, locale),
+                    })}
+                  </div>
+                )}
+              </>
+            ) : (
+              <div className="font-display text-xl font-extrabold text-slate-700 italic">
+                {t.courses.card.priceOnRequest}
               </div>
             )}
           </div>
