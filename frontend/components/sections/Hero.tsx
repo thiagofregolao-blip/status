@@ -144,45 +144,6 @@ export function Hero() {
           </motion.div>
         </div>
 
-        {/* Dual-visual composition */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.7 }}
-          className="relative mt-16 sm:mt-20 mx-auto max-w-5xl"
-        >
-          <div className="relative grid grid-cols-2 gap-3 sm:gap-5">
-            <div className="relative aspect-[4/5] sm:aspect-[16/12] overflow-hidden rounded-2xl sm:rounded-3xl shadow-lifted group">
-              <div className="absolute inset-0 bg-gradient-to-t from-tech/80 via-tech/20 to-transparent z-10" />
-              <img
-                src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=1200&auto=format&fit=crop&q=75"
-                alt={locale === 'pt' ? 'Operador em máquina agrícola' : 'Operador en máquina agrícola'}
-                loading="eager"
-                className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-              <div className="absolute left-4 top-4 z-20">
-                <span className="badge badge-tech bg-white/95 backdrop-blur border-0">
-                  🚜 {locale === 'pt' ? 'Trilha Técnica' : 'Trayecto Técnico'}
-                </span>
-              </div>
-            </div>
-            <div className="relative aspect-[4/5] sm:aspect-[16/12] overflow-hidden rounded-2xl sm:rounded-3xl shadow-lifted group">
-              <div className="absolute inset-0 bg-gradient-to-t from-ai/80 via-ai/20 to-transparent z-10" />
-              <img
-                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&auto=format&fit=crop&q=75"
-                alt={locale === 'pt' ? 'Aluno trabalhando com IA' : 'Alumno trabajando con IA'}
-                loading="eager"
-                className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-              <div className="absolute left-4 top-4 z-20">
-                <span className="badge badge-ai bg-white/95 backdrop-blur border-0">
-                  🤖 {locale === 'pt' ? 'Trilha IA & Tech' : 'Trayecto IA & Tech'}
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="pointer-events-none absolute -inset-4 sm:-inset-8 -z-10 rounded-[3rem] bg-gradient-to-tr from-tech/10 via-brand-100/20 to-ai/10 blur-2xl" />
-        </motion.div>
       </div>
     </section>
   );
