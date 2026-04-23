@@ -14,14 +14,14 @@ export const company = {
   ruc: 'RUC 00000000-0',
   cnpj: 'CNPJ 00.000.000/0001-00',
   social: {
-    instagram: 'https://instagram.com/evoluaacademy',
-    tiktok: 'https://tiktok.com/@evoluaacademy',
-    youtube: 'https://youtube.com/@evoluaacademy',
+    instagram: 'https://instagram.com/evolua.com.py',
+    instagramHandle: '@evolua.com.py',
   },
 } as const;
 
 export const whatsapp = {
-  number: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '595000000000',
+  number: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '595986848326',
+  display: '+595 986 848 326',
   defaultMessage: {
     pt: 'Olá! Quero mais informações sobre os cursos da Evolua Academy.',
     es: '¡Hola! Quiero más información sobre los cursos de Evolua Academy.',
